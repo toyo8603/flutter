@@ -1,0 +1,4 @@
+.gitignore が反映されない時の対処：
+git rm -r --cached . # . に注意！
+git add .
+git commit -m "fixed untracked files" # これは必要！

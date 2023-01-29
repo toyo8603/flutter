@@ -1,0 +1,55 @@
+\documentclass[a4j,12pt,twocolumn]{ltjtarticle}
+
+\usepackage{luatexja}
+\usepackage[no-math]{luatexja-fontspec}
+\usepackage[sourcehan-ja]{luatexja-preset}
+\usepackage{luatexja-ruby}
+\usepackage{luatexja-otf}
+\renewcommand{\thefootnote}{\arabic{footnote})}
+\title{縦書きのテスト}
+\author{何之　某}
+\date{}
+
+\begin{document}
+\maketitle
+\section{はじめに}
+\footnote{http://www.fugenji.org/~thomas/texlive-guide/vertical.html}これは日本語を書くためのテストです。\\
+\ruby{鵲}{かささぎ}の渡せる橋におく霜の 白きを見れば見れば夜も更にける\\
+\rightline{家持}
+\section{短いですが}
+
+例はこんな感じです。
+
+12個で1ダース、\rensuji{144}個で1グロス。
+
+１２個で１ダース、１４４個で１グロス。
+
+%\twocolumn
+
+首相会見が開かれれば、司会の\footnote{これは脚注です}山田氏絡みの質問も相次ぐだろう。首相は会見先送りについて「山田広報官のことは全く関係ない」と強調したが、やはり「山田氏隠し」の疑いはぬぐい切れない。
+
+緊急事態宣言の「全面解除」をめぐる今後の首相会見で、山田氏は司会進行の職責を果たせるだろうか。
+
+そう思っていたところ、３月１日朝に「山田氏入院」の速報が飛び込んできた。さらに、山田氏が辞意を伝えたことを受け、政府は同日朝の持ち回り閣議で辞任を決定した。与野党の批判を受ける中での事実上の引責とみられ、山田氏を続投させた首相の判断も厳しく問われよう。
+
+\rensuji{12}個で\rensuji{1}ダース、\rensuji{144}個で\rensuji{1}グロス。
+
+\pbox<y>{\CID{7608}横書きの引用符\CID{7609}}\pbox<y>{〝横書きの引用符〞}
+
+\CID{7956}縦書きの引用符\CID{7957}〝縦書きの引用符〞
+
+\bou{傍点}、\ltjruby{圏|点}{・|・}、\kasen{傍線}。
+\ltjruby[tbaseheight=0.5]{本田|侑汰}{ほんだ|うた}\\
+\ltjruby{鵲}{かささぎ}のわたせる橋にをく霜の白きをみれば夜も更けにける
+
+\noindent
+\ltjruby[tbaseheight=0.88]{本}{ほん}\
+\ltjruby[tbaseheight=0.88]{dvi}{ディー ヴィー アイ}\\
+\ltjruby[tbaseheight=0.5]{本}{ほん}\
+\ltjruby[tbaseheight=0.5]{dvi}{ディー ヴィー アイ}\\
+%\ltjruby[tbaseheight=0]{本}{ほん}\
+%\ltjruby[tbaseheight=0]{dvi}{ディー ヴィー アイ}\\
+\ltjruby[tbaseheight=-1]{本}{ほん}
+%\ltjruby[tbaseheight=-1]{dvi}{ディー ヴィー アイ\\%これは出力されない！注意！
+
+\end{document}

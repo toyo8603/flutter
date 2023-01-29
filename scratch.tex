@@ -1,14 +1,34 @@
-\documentclass[a5paper,landscape,11pt]{ltjtarticle}
+\documentclass[a6paper,landscape,11pt]{ltjtarticle}
+\usepackage{luatexja}
 \usepackage{ulem}
 \usepackage{lltjext}
 \usepackage{pxrubrica}
 \usepackage{luatexja-otf}
+\usepackage{luatexja-ruby}
+%\setlength{\marginparwidth}{35pt}
+%\setlength{\marginparsep}{60pt}
+\setlength{\voffset}{0.5in}% vertical offset
 %% https://hakuoku.github.io/agakuTeX/tutorial/5_3bouten/ から
 \kentenmarkintate{fisheye}%% 但し、横書きでは機能せず！
 \kentensubmarkintate{☜}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\def\@evenhead{\hfil\thepage}%
+\def\@oddhead{\hfil\thepage}%
+\def\@evenfoot{\@empty}%
+\def\@oddfoot{\@empty}%
+\makeatother
 \begin{document}
+marginparwidthが変わらない！\\
+横書きではKentenが機能しないのですね。\\
+そもそも、VSCodeをあまり使って来なかったので、大まかなことしかわかっていません。
+以前に、\LaTeX-WorkshopとかいうExtensionを入れたところ、エディタでの変更が即座に
+Buildされてしまい、これは使えないなァとアンインストールしたんだけど。
+自動ビルドをOFFにする設定があること知って今は使っています。
+\LaTeX では上下の余白をmarginparとして使わないのであれば調整しないと
+いけませんね。\\
+かっこ良くは諦めて何とか見えれば良いというスタンスでいきたいと思います。\\
 そもそもですが、
- \LaTeX は非常に\kenten[s]{簡易的}な\kenten{下線環境}しか提供しておらず、あまり使うべきではありません。
+ \LaTeX は非常に\kenten{簡易的}な\kenten{下線環境}しか提供しておらず、あまり使うべきではありません。
 \end{document}
 

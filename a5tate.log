@@ -1,8 +1,8 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.12.25)  29 JAN 2023 19:10
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.12.25)  29 JAN 2023 18:23
  restricted system commands enabled.
  file:line:error style messages enabled.
-**/Users/honda/work/git/ex1/scratch
-(/Users/honda/work/git/ex1/scratch.tex
+**/Users/honda/work/git/ex1/a5tate
+(/Users/honda/work/git/ex1/a5tate.tex
 LaTeX2e <2021-11-15> patch level 1
 Lua module: luaotfload 2022-03-18 3.21 Lua based OpenType font support
 Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
@@ -386,144 +386,115 @@ LaTeX Info: Redefining \gt on input line 661.
 Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip settings
 \@dblbotnum=\count273
 \c@dblbotnumber=\count274
-) (/usr/local/texlive/2022/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.sty)) (/usr/local/texlive/2022/texmf-dist/tex/generic/ulem/ulem.sty
-\UL@box=\box70
-\UL@hyphenbox=\box71
-\UL@skip=\skip50
-\UL@hook=\toks26
-\UL@height=\dimen165
-\UL@pe=\count275
-\UL@pixel=\dimen166
-\ULC@box=\box72
-Package: ulem 2019/11/18
-\ULdepth=\dimen167
-) (/usr/local/texlive/2022/texmf-dist/tex/platex/pxrubrica/pxrubrica.sty
-Package: pxrubrica 2021/03/06 v1.3d PX Japanese-style ruby
-\pxrr@cnta=\count276
-\pxrr@cntr=\count277
-\pxrr@dima=\dimen168
-\pxrr@boxa=\box73
-\pxrr@boxb=\box74
-\pxrr@boxr=\box75
-) (/usr/local/texlive/2022/texmf-dist/tex/luatex/luatexja/addons/luatexja-otf.sty
-Package: luatexja-otf 2019-09-26
-Custom whatsit char_by_cid = 7(load cache: ltj-ivd_aj1.luc)
-Removing  `ltj.main' from `hpack_filter'.
-Removing  `luaotfload.harf.finalize_hlist' from `hpack_filter'.
-Removing  `ltj.create_dir_whatsit' from `hpack_filter'.
-Inserting `ltj.otf' at position 4 in `hpack_filter'.
-Inserting `ltj.main' at position 5 in `hpack_filter'.
-Inserting `luaotfload.harf.finalize_hlist' at position 6 in `hpack_filter'.
-Inserting `ltj.create_dir_whatsit' at position 7 in `hpack_filter'.
-Removing  `ltj.main' from `pre_linebreak_filter'.
-Inserting `ltj.otf' at position 4 in `pre_linebreak_filter'.
-Inserting `ltj.main' at position 5 in `pre_linebreak_filter'.
-Removing  `ltj.get_vert_form' from `luatexja.define_jfont'.
-Inserting `ltj.otf.define_jfont' at position 1 in `luatexja.define_jfont'.
-Inserting `ltj.get_vert_form' at position 2 in `luatexja.define_jfont'.
-Inserting `ltj.otf.find_char_class' at position 1 in `luatexja.find_char_class'.
-\ltj@tempcnta=\count278
- (/usr/local/texlive/2022/texmf-dist/tex/luatex/luatexja/addons/luatexja-ajmacros.sty
-Package: luatexja-ajmacros 2020-10-09
-\@tempcnta=\count279
-\@tempcntb=\count280
-\@tempcntc=\count281
-\@tempcntd=\count282
-\@tempcnte=\count283
-\@tempcntf=\count284
-\@temptokenb=\toks27
-\@temptokenc=\toks28
-)) (/usr/local/texlive/2022/texmf-dist/tex/luatex/luatexja/addons/luatexja-ruby.sty
-Package: luatexja-ruby 2021-05-17 v0.52
-\ltj@rubyattr=\attribute25
-Lua module: luatexja.ruby 2022-02-03 Ruby annotation
-Custom whatsit ruby_pre = 8
-Custom whatsit ruby_post = 9
-Inserting `ltj.ruby.pre' at position 6 in `pre_linebreak_filter'.
-Inserting `ltj.ruby.pre' at position 8 in `hpack_filter'.
-Inserting `ltj.ruby.post_break' at position 4 in `post_linebreak_filter'.
-Inserting `ltj.ruby.post_hbox' at position 9 in `hpack_filter'.
-Removing  `luatexja.beginpar.np_info' from `luatexja.jfmglue.whatsit_getinfo'.
-Inserting `luatexja.ruby.np_info' at position 1 in `luatexja.jfmglue.whatsit_getinfo'.
-Inserting `luatexja.beginpar.np_info' at position 2 in `luatexja.jfmglue.whatsit_getinfo'.
-Removing  `luatexja.beginpar.np_info_after' from `luatexja.jfmglue.whatsit_after'.
-Inserting `luatexja.ruby.np_info_after' at position 1 in `luatexja.jfmglue.whatsit_after'.
-Inserting `luatexja.beginpar.np_info_after' at position 2 in `luatexja.jfmglue.whatsit_after'.
-Inserting `luatexja.ruby.np_info_last_minute' at position 1 in `luatexja.jfmglue.whatsit_last_minute'.)
+) (/usr/local/texlive/2022/texmf-dist/tex/luatex/luatexja/patches/lltjp-stfloats.sty)) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/layout.sty
+Package: layout 2021-03-10 v1.2e Show layout parameters
+\oneinch=\count275
+\cnt@paperwidth=\count276
+\cnt@paperheight=\count277
+\cnt@hoffset=\count278
+\cnt@voffset=\count279
+\cnt@textheight=\count280
+\cnt@textwidth=\count281
+\cnt@topmargin=\count282
+\cnt@oddsidemargin=\count283
+\cnt@evensidemargin=\count284
+\cnt@headheight=\count285
+\cnt@headsep=\count286
+\cnt@marginparsep=\count287
+\cnt@marginparwidth=\count288
+\cnt@marginparpush=\count289
+\cnt@footskip=\count290
+\fheight=\count291
+\ref@top=\count292
+\ref@hoffset=\count293
+\ref@voffset=\count294
+\ref@head=\count295
+\ref@body=\count296
+\ref@foot=\count297
+\ref@margin=\count298
+\ref@marginwidth=\count299
+\ref@marginpar=\count300
+\Interval=\count301
+\ExtraYPos=\count302
+\PositionX=\count303
+\PositionY=\count304
+\ArrowLength=\count305
+) (./a5tate.aux)
+\openout1 = a5tate.aux
 
-LaTeX Warning: Unused global option(s):
-    [a6paper].
-
-(./scratch.aux)
-\openout1 = scratch.aux
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for JY3/mc/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for JT3/mc/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
  《縦組モード》
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 25.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 25.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 25.
-LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 25.
-(load cache: extra_lmroman8-regular.luc)
+One-sided document style.
+(load cache: extra_lmroman9-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 25.
+(Font)              scaled to size 8.65997pt on input line 8.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 25.
-(load cache: extra_lmroman5-regular.luc)
+(Font)              scaled to size 8.65997pt on input line 8.
+(load cache: extra_lmroman6-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 5.26813pt on input line 32.
+(Font)              scaled to size 5.77332pt on input line 8.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.26813pt on input line 32.
+(Font)              scaled to size 5.77332pt on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 8.65997pt on input line 8.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 5.77332pt on input line 8.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.8111pt on input line 8.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 10.53629pt on input line 8.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 33.
- [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+(Font)              scaled to size 10.53629pt on input line 8.
+[1
 
-] (./scratch.aux))
+]
+Overfull \vbox (21.5pt too high) has occurred while \output is active []
+
+ [2{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [3] (./a5tate.aux))
 
 Here is how much of LuaTeX's memory you used:
- 5379 strings out of 477785
+ 3236 strings out of 477785
  125244,460012 words of node,token memory allocated
- 12171 words of node memory still in use:
-   7 hlist, 1 vlist, 4 rule, 2 glue, 218 kern, 1 glyph, 4933 attribute, 93 glue_spec, 250 attribute_list, 1 write, 13 user_defined nodes
-   avail lists: 1:27,2:19459,3:2493,4:145,5:1660,6:6,7:2071,9:1090,10:14,11:9
- 25865 multiletter control sequences out of 65536+600000
- 38 fonts using 32173023 bytes
- 114i,5n,112p,1787b,1029s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman5-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf>
-Output written on scratch.pdf (1 page, 39273 bytes).
+ 13073 words of node memory still in use:
+   7 hlist, 1 vlist, 4 rule, 2 glue, 222 kern, 1 glyph, 4909 attribute, 275 glue_spec, 256 attribute_list, 1 write, 15 user_defined nodes
+   avail lists: 1:27,2:30248,3:16,4:935,5:280,6:7,7:1974,8:1,9:1546,11:4
+ 23758 multiletter control sequences out of 65536+600000
+ 39 fonts using 36037551 bytes
+ 114i,11n,112p,1784b,318s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmmono9-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman6-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb>
+Output written on a5tate.pdf (3 pages, 20013 bytes).
 
-PDF statistics: 36 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+PDF statistics: 50 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
